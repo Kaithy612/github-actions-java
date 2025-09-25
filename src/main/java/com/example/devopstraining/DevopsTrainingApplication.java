@@ -8,7 +8,7 @@ public final class DevopsTrainingApplication {
 
      private DevopsTrainingApplication() { }
 
-    public static void main( final String[] args) {
+    public static void main(final String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
     }
 }
