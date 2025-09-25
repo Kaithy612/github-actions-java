@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public final class HelloController {  // final voorkomt ongewenste extensie
+public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
@@ -15,7 +15,7 @@ public final class HelloController {  // final voorkomt ongewenste extensie
     }
 
     @GetMapping("/hello/{name}")
-    public String helloWithName(final @PathVariable String name) { // final parameter
+    public String helloWithName(@PathVariable String name) {
         return "Hello, " + name + "!";
     }
 

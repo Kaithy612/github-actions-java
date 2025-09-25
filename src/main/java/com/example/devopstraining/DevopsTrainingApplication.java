@@ -4,12 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public final class DevopsTrainingApplication {
+public final class DevopsTrainingApplication { 
 
-    // Private constructor voorkomt objectcreatie
-    private DevopsTrainingApplication() { }
+     private DevopsTrainingApplication() { }
 
-    public static void main(final String[] args) {
+    public static void main( final String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
     }
 }
